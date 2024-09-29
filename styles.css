@@ -14,3 +14,35 @@ body{
     font-family: "Work Sans", system-ui;
     font-optical-sizing: auto;
 }
+
+
+.nav {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-items a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-items{
+    display: flex;
+    column-gap: 20px;
+}
+
+
+
+.heart-img {
+    height: 15px;
+    width: 15px;
+}
