@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
     box-sizing: border-box;
     border: 0;
     outline: 0;
@@ -38,6 +39,38 @@ body{
 .nav-items{
     display: flex;
     column-gap: 20px;
+}
+
+nav h2 :hover {
+    font-size: 30px;
+}
+
+.landingPage{
+    background-image: url(./images/1291095.jpg);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.start-btn {
+    margin-top: 10px;
+    padding: 15px 15px;
+    border-radius: 2rem;
+    background-color: transparent;
+    color: #73FC4D;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 3px solid gray;
 }
 
 
